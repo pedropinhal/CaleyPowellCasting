@@ -1,0 +1,247 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wp_",
+				"WP_Query"
+			],
+			[
+				"thep",
+				"the_post"
+			],
+			[
+				"new",
+				"new_query"
+			],
+			[
+				"register_po",
+				"register_post_type"
+			],
+			[
+				"get_comment_auth",
+				"get_comment_author_url"
+			],
+			[
+				"get_comm",
+				"get_comment_author"
+			],
+			[
+				"the_ti",
+				"the_title"
+			],
+			[
+				"theloop",
+				"theloop	The Loop"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Ped/Work/mamp/cpc/wp-content/themes/caleypowellcasting/index.php",
+		"/Users/Ped/Work/mamp/wordpress/wp-content/themes/learn-wordpress/sidebar.php",
+		"/C/Work/wamp/www/wordpress/wp-content/themes/bootstrap/test.html",
+		"/C/Work/wamp/www/wordpress/wp-content/themes/bootstrap/css/bootstrap-responsive.css",
+		"//JUST-EBT-DC01/group/Shared/Pedro/new  1.txt",
+		"/D/FDMicrosite/FuneralDirectorsMicrosite/FuneralDirectorsMicrosite.csproj",
+		"/D/FDMicrosite/FuneralDirectorsMicrosite/FuneralDirectorsMicrosite.csproj.user",
+		"/D/FDMicrosite/FuneralDirectorsMicrosite.sln",
+		"/D/GG.Api/build.bat",
+		"/D/GG.Api/create-package.bat",
+		"/D/GG.Api/publish-package.bat",
+		"/D/GG.Api/.gitignore",
+		"/D/JustGiving/Website/GG.PaymentProcessing.Agent/bin/Debug/GG.PaymentProcessing.Agent.exe.config",
+		"//JUST-EBT-DC01/group/Shared/Pedro/new  6.txt",
+		"//JUST-EBT-DC01/group/Shared/Pedro/new  3.txt",
+		"/C/stuff/Steam/SteamApps/common/Mini Motor Racing/Crash_2013-05-03_170306/output_log.txt",
+		"/C/Users/ppinhal/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.Outlook/8V41FKP3/postJustGiving.txt",
+		"/C/Windows/System32/Drivers/etc/hosts",
+		"/C/Work/Dropbox/ResharperSettings.xml",
+		"/C/Work/Dropbox/things to do in NY.txt",
+		"/D/QuantivProjects/BB01/Configuration.xml",
+		"/D/QuantivProjects/BB01/Release/Data/BB01UserList.xml",
+		"/D/QuantivProjects/BB01/Deployments/Configuration.xml",
+		"/D/Install notes, pass 2.txt",
+		"/D/NOTE ON SETTING UP GIT CREDENTIALS.txt",
+		"/C/Work/qdll/BB01/InstallAssembliesFromFolderToLocalGac.bat",
+		"/C/Work/qdll/BB01/AddAssemblyToGac.bat",
+		"/C/Work/qdll/BB01/DeployAndRecycle.bat",
+		"/D/NOTE ON SETTING UP VMs.txt",
+		"/C/Work/qdll/BB01/RegisterQuantivDllsInGac.bat",
+		"/C/Work/Console2/console.xml"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Books",
+			"php",
+			">",
+			"add",
+			">",
+			"console",
+			"funeral",
+			"enable",
+			"biyer"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 275.0,
+	"status_bar_visible": true
+}
