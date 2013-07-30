@@ -1,11 +1,49 @@
+/* thinner body */
+
 .container {
 width: auto;
 max-width: 780px;
 padding: 0 15px;
 }
 
+h3{
+	color:#d44a02;
+}
 
+h1{
+	color:#9f0622;
+}
+h2{
+	color:#f48221;
+}
 
+.caley-nav{
+	 background-color: #c7254e;
+}
+
+.caley-nav .navbar-nav > li > a {
+  color: #f9f2f4;
+}
+
+.caley-nav .navbar-nav > li > a:hover {
+  color: #fff;
+}
+
+.caley-nav .navbar-nav > .active > a,
+.caley-nav .navbar-nav > .active > a:hover {
+  color: #fff;
+  background-color: #f48221;
+}
+
+.caley-nav .navbar-toggle {
+  border-color: #563d7c;
+}
+.caley-nav .navbar-toggle:hover {
+  background-color: #463265;
+  border-color: #463265;
+}
+
+/* sticky footer */
 
 html,
 body {
