@@ -45,7 +45,19 @@ h2, a, a:hover{
   /*background-color: #d44a02;*/
 }
 
+#carpeds{
+ 
+ 
+      height:350px;
+     
+      min-height:100px;
+   
+      max-height:400px;
+      overflow:hidden;
+      display:block;
+      border:1px solid red;
 
+}
 /* Nav */
 
 .caley-nav{

@@ -104,7 +104,7 @@ function custom_news_post_type() {
         'has_archive' => true,
         'hierarchical' => false,
         'menu_position' => null,
-        'supports' => array( 'title', 'editor'),
+        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt'),
         'capability_type' => 'post',
         'capabilities' => array(),
         'labels' => array(
