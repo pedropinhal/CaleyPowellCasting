@@ -84,4 +84,45 @@ function add_avatar_class($class){
 
 }
 
+function custom_news_post_type() {
+
+   /**
+    * Register a custom post type
+    *
+    * Supplied is a "reasonable" list of defaults
+    * @see register_post_type for full list of options for register_post_type
+    * @see add_post_type_support for full descriptions of 'supports' options
+    * @see get_post_type_capabilities for full list of available fine grained capabilities that are supported
+    */
+    register_post_type( 'news', array(
+        'public' => true,
+        'publicly_queryable' => true,
+        'show_ui' => true,
+        'show_in_menu' => true,
+        'query_var' => true,
+        'rewrite' => array( 'slug' => 'news' ),
+        'has_archive' => true,
+        'hierarchical' => false,
+        'menu_position' => null,
+        'supports' => array( 'title', 'editor'),
+        'capability_type' => 'post',
+        'capabilities' => array(),
+        'labels' => array(
+            'name' => 'News',
+            'singular_name' => 'News',
+            'add_new' => 'Add new',
+            'add_new_item' => 'Add New News Item',
+            'edit_item' => 'Edit News Item',
+            'new_item' => 'New News Item',
+            'all_items' => 'All News',
+            'view_item' => 'View News',
+            'search_items' => 'Search News',
+            'not_found' =>  'No News Found',
+            'not_found_in_trash' => 'No new found in trash',
+            'parent_item_colon' => '',
+            'menu_name' => 'News'
+        )
+    ) );
+}
+add_action( 'init', 'custom_news_post_type' );
 
