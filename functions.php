@@ -70,7 +70,7 @@ function comments_feed_template_callback($comment, $args, $depth){
 add_filter('comment_reply_link', 'add_reply_link_class');
 
 function add_reply_link_class($class){
-	$class = str_replace("class='comment-reply-link", "class='btn btn-primary btn-small", $class);
+	$class = str_replace("class='comment-reply-link", "class='btn btn-default btn-small", $class);
 	return $class;
 
 }
@@ -79,7 +79,7 @@ function add_reply_link_class($class){
 add_filter('get_avatar', 'add_avatar_class');
 
 function add_avatar_class($class){
-	$class = str_replace("class='avatar", "class='img-circle", $class);
+	$class = str_replace("class='avatar", "class='img-rounded", $class);
 	return $class;
 
 }

@@ -36,9 +36,17 @@ h3{
 h1{
 	color:#9f0622;
 }
-h2{
+h2, a, a:hover{
 	color:#f48221;
 }
+
+
+.btn{
+  /*background-color: #d44a02;*/
+}
+
+
+/* Nav */
 
 .caley-nav{
 	 background-color: #c7254e;

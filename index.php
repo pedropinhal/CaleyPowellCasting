@@ -9,18 +9,21 @@
 
       
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-	<div class="media">
-                      <a class="pull-left" href="#">
-                        <?php the_post_thumbnail('thumbnail'); ?>
-                      </a>
-                      <div class="media-body">
-                        <h4 class="media-heading"><?php the_title(); ?></h4>
+	
+		<div class="media">
+      <a class="pull-left" href="#">
+        <?php the_post_thumbnail('thumbnail'); ?>
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading"><?php the_title(); ?></h4>
 
-                            <?php the_content(); ?>
+            <?php the_excerpt(); ?>
 
-                            <a href="<?php the_permalink(); ?>" class="btn btn-mini btn-info">read more</a>
-                      </div>
-                    </div>
+            <a href="<?php the_permalink(); ?>" class="btn btn-default btn-small">read more</a>
+      </div>
+ 
+
+</div>
 <!-- post -->
 <?php endwhile; ?>
 <!-- post navigation -->

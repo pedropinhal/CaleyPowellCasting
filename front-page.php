@@ -17,8 +17,10 @@
 <a href="#" class="btn btn-primary btn-mini">asd</a>
     	<button type="button" class="btn btn-default btn-small">Mini button</button>
     	<span class="glyphicon glyphicon-share-alt"></span>
-    <h3>News</h3>
-
+    
+    <h1>header 1</h1>
+    <h2>header 2</h2>
+	<h3>header 3</h3>
     <div class="media">
       <a class="pull-left" href="#">
         <img class="media-object" src="http://placehold.it/64x64">

@@ -3,7 +3,7 @@
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
 
-						<h2><?php the_title(); ?> <small><em> by: <?php the_author();  ?></em></small></h2>
+						<h1><?php the_title(); ?> <small><em> by: <?php the_author();  ?></em></small></h1>
 						<?php the_date(); ?>
 				
 						<?php the_content(); ?>

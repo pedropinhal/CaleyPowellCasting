@@ -2,7 +2,7 @@
 
 <div id="respond">
 
-<h3><?php comment_form_title(); ?></h3>
+<h2><?php comment_form_title(); ?></h2>
 
 <?php cancel_comment_reply_link(); ?>
 
@@ -28,7 +28,7 @@
 </div>
 
 <div class="form-group">
-	<label for="email" class="col-lg-4 control-label">Email ( <?php if ( $req ) echo "required, "; ?>never shared )</label>
+	<label for="email" class="col-lg-3 control-label">Email ( <?php if ( $req ) echo "required ) "; ?> </label>
 	<div class="col-lg-8">
 		<input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" class="form-control" placeholder="Email" <?php if ($req) echo "aria-required='true'"; ?> />
 	</div>		
@@ -47,9 +47,10 @@
 	<label for="comment" class="col-lg-3 control-label">Comment</label>
 	<div class="col-lg-8">
 		<textarea name="comment" id="comment" class="form-control"></textarea></p>
+		<button type="submit" class="btn btn-default">Add comment</button>
 	</div>
+	
 </div>
-<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" /></p>
 <?php do_action( 'comment_form', $post->ID ); comment_id_fields(); ?>
 
 </form>
