@@ -13,7 +13,7 @@
 		<div class="media">
       <a class="pull-left" href="#">
         <?php the_post_thumbnail('thumbnail'); ?>
-      </a>
+      </a>	
       <div class="media-body">
         <h4 class="media-heading"><?php the_title(); ?></h4>
 

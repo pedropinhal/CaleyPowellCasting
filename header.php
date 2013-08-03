@@ -34,8 +34,8 @@
 	           
 	           
 
-	          <form class="navbar-form pull-right" action="">
-	            <input type="text" class="form-control col-lg-8" placeholder="Search">
+	          <form class="navbar-form pull-right" method="get" action="<?php echo home_url( '/' ); ?>">
+	            <input type="text" name="s" id="s" class="form-control col-lg-8" placeholder="Search" value="<?php the_search_query(); ?>">
 	          </form> 
 
 	        </div><!-- /.nav-collapse -->
