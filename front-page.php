@@ -41,7 +41,7 @@
  		<?php while ( $carousel_news->have_posts() ) : $carousel_news->the_post();
 
  		$attachment_id = get_field('news_image');
-		$size = "full"; // (thumbnail, medium, large, full or custom size)
+		$size = "large"; // (thumbnail, medium, large, full or custom size)
 		$image = wp_get_attachment_image_src( $attachment_id, $size );
 		?>
 

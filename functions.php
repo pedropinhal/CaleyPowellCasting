@@ -84,6 +84,16 @@ function add_avatar_class($class){
 
 }
 
+// add active class to menu header
+add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
+function special_nav_class($classes, $item){
+     if( in_array('current-menu-item', $classes) ){
+             $classes[] = 'active ';
+     }
+     return $classes;
+}
+
+
 function custom_news_post_type() {
 
    /**

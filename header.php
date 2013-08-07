@@ -27,13 +27,10 @@
 	          <!-- Place everything within .navbar-collapse to hide it until above 768px -->
 	          <div class="nav-collapse collapse navbar-responsive-collapse">
 	          	<?php wp_nav_menu( array(
-	           		'menu'            => 'main-nav', 
-				     
+	           		'menu'            => 'main-nav',  
 					'menu_class'      => 'nav navbar-nav', 
 	       		) ) ?>
-	           
-	           
-
+	           	          
 	          <form class="navbar-form pull-right" method="get" action="<?php echo home_url( '/' ); ?>">
 	            <input type="text" name="s" id="s" class="form-control col-lg-8" placeholder="Search" value="<?php the_search_query(); ?>">
 	          </form> 
