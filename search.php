@@ -18,7 +18,8 @@ $total_results = $wp_query->found_posts;
 					<?php echo the_author_posts_link(); ?>
 						
 					
-					<small><?php the_date(); ?> at <?php the_time();?></small>
+					<small><?php echo get_the_date(); ?> at <?php the_time();?></small>
+					<!--<small>(<?php $cat = get_the_category($post->ID); echo $cat[0]->cat_name;  ?>) </small>-->
 				</h5>
 
 	<?php the_content(); ?>
