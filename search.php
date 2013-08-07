@@ -1,8 +1,25 @@
 <?php get_header(); ?>
-search
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+<?php 
+global $wp_query;
+$total_results = $wp_query->found_posts;
 
-	<?php the_title( $before = '<h3>', $after = '</h3>', $echo = true ) ?>
+
+ ?>
+
+
+<?php if ( have_posts() ) : ?>
+ <h3>Search results for: <i><?php echo get_search_query(); ?></i>
+ 	(<?php echo $total_results ?>)
+ </h3>
+ <?php while ( have_posts() ) : the_post(); ?>
+<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2> 
+	<h5 class="media-heading">
+
+					<?php echo the_author_posts_link(); ?>
+						
+					
+					<small><?php the_date(); ?> at <?php the_time();?></small>
+				</h5>
 
 	<?php the_content(); ?>
 
@@ -13,3 +30,6 @@ search
 <!-- no posts found -->
 <?php endif; ?>
 <?php get_footer(); ?>
+
+id address 
+utility proof of address
