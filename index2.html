@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bootstrap 101 Template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<style type="text/css">
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+height: 100%;
+
+/* The html and body elements cannot have any padding or margin. */
+}
+
+
+/* Wrapper for page content to push down footer */
+#wrap {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+/* Negative indent footer by its height */
+margin: 0 auto -60px;
+/* Pad bottom by footer height */
+padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+height: 60px;
+background-color: #f5f5f5;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+#footer {
+  margin-left: -20px;
+  margin-right: -20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+}
+
+
+
+.container {
+padding: 0px 15px 0;
+max-width: 940px;
+}
+.container .credit {
+margin: 20px 0;
+}
+
+.header{
+padding-left: 20px;
+min-height:80px;
+background-color:#f48221; 
+
+}
+
+.header h1{ color:#ffffff;}
+
+
+h3{
+color:#d44a02;
+}
+
+h1{
+color:#9f0622;
+}
+h2, a, a:hover{
+color:#f48221;
+}
+body,
+input,
+button,
+select,
+textarea,h1,h2,h3,h4,h5,h6, label
+.navbar-search .search-query {
+font-family: 'Open Sans', sans-serif;
+}
+label{ font-weight: bold !important;}
+.comment{
+
+background-color: #eee;
+border-color: #d0e3f0;
+
+margin: 20px 0;
+padding: 15px 30px 15px 15px;
+border-left: 5px solid #c3c3c3;
+}
+
+.navbar{
+margin-bottom: 0px;
+}
+
+}
+</style>
+</head>
+<body>
+
+
+
+<div id="wrap">
+
+  <div class="header">
+    <div class="container">
+
+      <h1>Caley Powell Casting</h1>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- Fixed navbar -->
+  <div class="navbar">
+    <div class="container">
+
+
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <div class="nav-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Blog</a></li>
+        </ul>
+
+        <form class="navbar-form pull-right" action="">
+          <input type="text" class="form-control col-lg-8" placeholder="Search">
+
+
+        </form>
+
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+
+  <!-- Begin page content -->
+  <div class="container">
+
+
+    <div class="page-header">
+      <h2>I have a new thing <small>02 Aug 2012</small></h2>
+      <h6><i>blog</i></h6>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus imperdiet ullamcorper nulla, in sagittis diam porta ac. Vestibulum sem magna, elementum non ornare vitae, rutrum non sem. Cras vehicula magna dui, et lobortis mauris aliquet vitae. Curabitur tristique mi quis diam ornare ullamcorper. In convallis pharetra purus quis fermentum. Donec tincidunt elit ac consequat lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae odio vel mi pretium suscipit eget nec urna. Maecenas ut nunc accumsan, iaculis est et, malesuada nunc. Sed ligula metus, pulvinar quis molestie vel, interdum ut sem. Donec et sapien tortor. Nulla vulputate, ante eget cursus vestibulum, ligula est interdum leo, eget fermentum tortor lacus sed odio. Integer sagittis ante non leo aliquam pharetra. Ut tempor urna diam, nec vestibulum ante vulputate vitae. Etiam nec orci libero. Vivamus nec ante dignissim, mollis magna aliquam, porttitor lorem.
+
+
+    </p>
+
+
+    <h3>3 thoughts on <i>"I have a new thing"</i></h3>
+
+   
+
+
+
+
+
+    <ul class="list-group">
+      <li class="list-group-item">
+
+        <h5 >02 August 2013 <small>user says</small> </h5>
+           <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+
+
+        <ul class="list-group">
+          <li class="list-group-item">
+
+           <h5 class="list-group-item-heading">02 August 2013 <small>user says</small> </h5>
+           <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+         </li>
+       </ul>
+     </li>
+   </ul>
+
+
+    <div class="comment">
+      <div class="container">
+        <h2>Leave a reply</h2>
+        <h6>Logged in as asd</h6>
+
+
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail">Email address</label>
+            <input type="text" class="form-control" id="exampleInputEmail" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword">Comment</label>
+            <textarea class="form-control" placeholder="Enter a comment" rows="7"></textarea>
+          </div>
+          <button type="submit" class="btn btn-default">Post Comment</button>
+        </form>
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+</div>
+
+
+<div id="footer">
+  <div class="container">
+    <p class="text-muted credit">Example courtesy <a href="http://martinbean.co.uk">Martin Bean</a> and <a href="http://ryanfait.com/sticky-footer/">Ryan Fait</a>.</p>
+  </div>
+</div>
+
+<!-- JavaScript plugins (requires jQuery) -->
+<script src="http://code.jquery.com/jquery.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

@@ -79,6 +79,6 @@
  <p>On a side note to casting I am also, this year, doing a yearly fundraising event for Cancer Research UK, follow me on @CaleyPCasting here is the reason why: http://nowletmetellyou.tumblr.com  and more information will be posted up on my JustGiving page I appreciate all donations. 
  </p>
 
- <?php get_search_form(); ?>
+ 
 
 <?php get_footer(); ?>
